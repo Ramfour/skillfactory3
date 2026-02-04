@@ -1,0 +1,19 @@
+/* Стиль для хедера страницы */
+.news-logo{
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/head_logo.png");
+    background-size: cover;
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+/* стиль для заголовка хедера страницы */
+.news-logo h1 {
+    color: #376175;
+    font-size: 40px;
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px rgba(71, 60, 60, 0.3); 
+}
