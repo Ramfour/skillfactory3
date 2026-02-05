@@ -12,8 +12,74 @@
 }
 /* стиль для заголовка хедера страницы */
 .news-logo h1 {
-    color: #376175;
+    color: #8ac7e4;
     font-size: 40px;
     font-weight: bold; 
     text-shadow: 2px 2px 5px rgba(71, 60, 60, 0.3); 
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 2px; 
+}
+
+
+nav {
+    /* добавить в readme*/
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    
+    background-color: rgba(0, 0, 0, 0.096);
+    background-size: cover;
+    border-radius: 10px; 
+    overflow: hidden; 
+    padding: 10px 0px;
+}
+nav li{
+    margin: 20px;  
+    display: inline;
+    padding: 10px 10px;
+    background-color: rgba(158, 161, 70, 0.459);
+    
+    
+}
+
+.content {
+    max-width: 90%;
+    padding-left: 15%;
+    display: flex;
+    background-size: cover;
+
+}
+.news-block{
+    width: 70%;
+
+}
+
+.ads {
+    padding: 10px 0px 0px 10px;
+    border: solid black 1px;
+    min-width: 13%;
+    max-width: 20%;
+    border-radius: 5px;
+    max-height: 500px;  
+    position: sticky;  
+    margin: 20px 5% 0px 20px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    max-height: 100%;
+}
+
+.news-card {
+    border: solid black 1px;
+    background-color: rgba(206, 232, 255, 0.445);
+    padding: 5px 20px 0px 5%;
+    margin-top: 20px;
+    
+    border-radius: 5px;
+
+
 }
